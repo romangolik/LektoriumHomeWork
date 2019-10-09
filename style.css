@@ -14,7 +14,11 @@ header{
 
 .logo-section{
 	width: 65vw;
+	background-image: url(images/logo-section/img.png);
+	background-size: 100%;
 	background-color: #f4f4f3;
+	background-position: 0% 80%;
+	background-repeat: no-repeat;
 	display: flex;
 	padding: 4% 0 0 10%;
 }
@@ -24,9 +28,6 @@ header{
 .logo-img{
 	height: 22.2vw;
 	margin-left: 3.4vw;
-}
-.logo-img img{
-	height: 100%;
 }
 .logo p{
 	font-size: 11px;
@@ -45,7 +46,7 @@ header{
 
 .menu-section{
 	width: 35vw;
-	padding: 4% 0 0 0;
+	padding: 4% 0 3.5vw 0;
 	background-color: #7acec3;
     background-image: linear-gradient(to bottom right, transparent 50%, #e9eae2, transparent 50.5%);
 }
@@ -62,8 +63,8 @@ header{
 	font-size: 12px;
 	margin: 4vw 0 0 2vw;
 }
-.contact-info{
-	margin: 1vw 0 0 6vw;
+.contact-info {
+    margin: 1vw 0 0 6vw;
 }
 
 
@@ -103,7 +104,7 @@ header{
 	line-height: 11px;
 }
 .navigation span{
-	color: black;
+	font-size: 1.2vw;
 }
 .navigation{
 	width: 5vw;
@@ -111,9 +112,12 @@ header{
 	top: 7vw;
 	left: 8vw;
 }
+.navigation li:first-child a{
+	color: black;
+}
 .navigation li:first-child{
 	position: relative;
-	right: 16px;
+	right: 1.2vw;
 }
 .project-card h1{
 	color: white;
@@ -684,6 +688,9 @@ footer{
 	body{
 		margin: 0 10%;
 	}
+	.contact-info {
+	    margin: 1vw 0 3.5vw 6vw;
+	}
 	.fondue-card .like {
 	    left: 0.2vw;
 	}
@@ -754,11 +761,11 @@ footer{
 }
 
 @media screen and (max-width: 1280px) {
-	.address, .contact-info {
+	.address{
 	    margin: 3vw 0 0 2vw;
 	}
 	.contact-info {
-	    margin: 1vw 0 0 7vw;
+	    margin: 1vw 0 0vw 7vw;
 	}
 }
 
@@ -819,6 +826,12 @@ footer{
 	.navigation {
 	    top: 9vw;
 	    left: 9vw;
+	}
+	.navigation span {
+	    font-size: 15px;
+	}
+	.navigation li:first-child {
+	    right: 15px;
 	}
 	.project-card h1 {
 	    top: 20vw;
@@ -1147,6 +1160,11 @@ footer{
 	    height: 14px;
 	}
 
+	.navigation {
+	    top: 9vw;
+	    left: 8vw;
+	    width: 7vw;
+	}
 	.louis-card{
 		height: 27.6vw;
 	}
@@ -1207,6 +1225,12 @@ footer{
 	.projects-section p {
 	    line-height: 1vw;
 	}
+
+	.navigation {
+	    left: 9vw;
+	    top: 7vw;
+	}
+
 
 	.louis-wrapper .view{
 		margin-top: -1vw;
@@ -1347,6 +1371,10 @@ footer{
 	    top: 6.5vw;
 	}
 
+	.navigation {
+	    top: 6vw;
+	}
+
 	.louis-wrapper .like {
 	    top: 8.5vw;
 	}
@@ -1386,6 +1414,10 @@ footer{
 	.person-card p {
 	    margin-bottom: 0;
 	}
+
+	.map, .addres-section {
+	    height: 41.8vw;
+	}
 }
 
 
@@ -1403,8 +1435,8 @@ footer{
 	}
 
 	.navigation {
-	    top: 7vw;
-	    left: 9vw;
+	    top: 6vw;
+	    left: 8vw;
 	}
 
 	.p22-wrapper {
@@ -1434,6 +1466,9 @@ footer{
 	.timeline-wrapper {
 	    left: 3vw;
 	}
+	.timeline-wrapper .years li:first-child {
+	    left: -1.75vw;
+	}
 }
 
 @media screen and (max-width: 568px) {
@@ -1441,11 +1476,12 @@ footer{
 	    flex-direction: column;
 	}
 	.logo-section {
-	    width: 85%;
-	    padding: 4% 0 0 15%;
+	    width: 88%;
+	    padding: 4% 0 4vw 12%;
 	}
 	.menu-section {
 	    width: 100%;
+	    padding: 4% 0 0;
 	}
 	.logo img {
 	    height: 20vw;
@@ -1505,6 +1541,9 @@ footer{
 	    left: 4.2vw;
 	    height: 2.5vw;
 	}
+	.like p {
+		top: 7.5vw;
+	}
 
 
 	.project-card {
@@ -1523,7 +1562,14 @@ footer{
 
 	.navigation {
 	    top: 9vw;
-	    left: 10vw;
+	    left: 7vw;
+	    width: 15vw;
+	}
+	.navigation span {
+	    font-size: 4vw;
+	}
+	.navigation li:first-child a {
+	    right: 1.3vw;
 	}
 	.project-card h1 {
 	    top: 28vw;
@@ -1542,7 +1588,7 @@ footer{
 	    height: 43vw;
 	}
 	.louis-wrapper .like {
-	    top: 18vw;
+	    top: 17vw;
 	    left: 5vw;
 	}
 
@@ -1846,6 +1892,10 @@ footer{
 	    top: 7vw;
 	}
 
+	.navigation li:first-child a {
+	    right: 0.9vw;
+	}
+
 	.fondue-card .like {
 	    left: 3vw;
 	}
@@ -1912,6 +1962,19 @@ footer{
 	    line-height: 1.6vw;
 	}
 
+	.navigation {
+	    top: 10vw;
+	}
+	.project-card .navigation li {
+	    line-height: 1.5vw;
+	}
+	.navigation li:first-child a {
+	    right: -0.1vw;
+	}
+	.navigation span {
+	    font-size: 3.5vw;
+	}
+
 	.sesann-wrapper {
 	    top: 21.5vw;
 	    left: 5vw;
@@ -1953,6 +2016,14 @@ footer{
 
 
 @media screen and (max-width: 375px) {
+	.navigation {
+	    top: 7vw;
+	    left: 8vw;
+	}
+	.navigation li:first-child a {
+	    right: -0.5vw;
+	}
+
 	.project-card h1 {
 	    left: 20vw;
 	}
@@ -1988,6 +2059,9 @@ footer{
 @media screen and (max-width: 320px) {
 	.navigation {
 	    left: 9vw;
+	}
+	.navigation li:first-child a {
+	    right: -1.1vw;
 	}
 	.sesann-wrapper .view {
 	    top: 1.5vw;
