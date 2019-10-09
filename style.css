@@ -1,0 +1,2018 @@
+*{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+body{
+	margin: 0 13%;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #F0F0F0FF;
+}
+header{
+	display: flex;
+}
+
+.logo-section{
+	width: 65vw;
+	background-color: #f4f4f3;
+	display: flex;
+	padding: 4% 0 0 10%;
+}
+.logo img{
+	height: 10vw;
+}
+.logo-img{
+	height: 22.2vw;
+	margin-left: 3.4vw;
+}
+.logo-img img{
+	height: 100%;
+}
+.logo p{
+	font-size: 11px;
+}
+.socials{
+	display: flex;
+	justify-content: center;
+	margin-top: 3vw;
+}
+.socials img{
+	height: 1vw;
+	padding: 0 0.4vw;
+}
+
+
+
+.menu-section{
+	width: 35vw;
+	padding: 4% 0 0 0;
+	background-color: #7acec3;
+    background-image: linear-gradient(to bottom right, transparent 50%, #e9eae2, transparent 50.5%);
+}
+.menu{
+	text-align: center;
+}
+.botton-navigation img{
+	height: 1vw;
+	border: 2px solid #e9eae2;
+	padding: 2.4vw 2vw;
+}
+.address, .contact-info{
+	color: white;
+	font-size: 12px;
+	margin: 4vw 0 0 2vw;
+}
+.contact-info{
+	margin: 1vw 0 0 6vw;
+}
+
+
+
+.projects-section{
+	display: flex;
+}
+.projects-section h1{
+	font-weight: 100;
+	font-size: 1vw;
+	margin-bottom: 1vw;
+}
+.projects-section p{
+	font-size: 0.5vw;
+	margin-bottom: 2.5vw;
+	line-height: 0.8vw;
+	letter-spacing: 0.8px;
+}
+.wrapper-left{
+	width: 69.6vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.project-card{
+	width: 45%;
+	height: 22.3vw;
+	background-color: #ebb240;
+	background-image: linear-gradient(to bottom right, transparent 50%, #e9eae2, transparent 50.5%);
+}
+.project-card .navigation a{
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+}
+.project-card .navigation li{
+	list-style: none;
+	line-height: 11px;
+}
+.navigation span{
+	color: black;
+}
+.navigation{
+	width: 5vw;
+	position: absolute;
+	top: 7vw;
+	left: 8vw;
+}
+.navigation li:first-child{
+	position: relative;
+	right: 16px;
+}
+.project-card h1{
+	color: white;
+	font-size: 2.5vw;
+	font-weight: normal;
+	position: absolute;
+	top: 15vw;
+	left: 11vw;
+}
+
+.wrapper-left .fondue-card{
+	width: 55%;
+	height: 22.2vw;
+	background-image: url(images/Project-section/lamp.png);
+	background-size: 60%;
+	background-color: #fff;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+
+.fondue-wrapper{
+	margin: 3vw 0 0 3vw;
+}
+.view a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.9vw;
+}
+.view img{
+	height: 0.7vw;
+}
+.like img{
+	height: 1.2vw;
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+}
+.like p {
+    position: absolute;
+    top: 5.4vw;
+    left: 3.1vw;
+    color: red;
+}
+.fondue-card .like{
+	position: absolute;
+    top: 10vw;
+    left: 0.5vw;
+}
+
+.louis-card{
+	width: 29%;
+	height: 22vw;
+	background-image: url(images/Project-section/chair.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.louis-wrapper{
+	color: white;
+}
+.louis-wrapper{
+	margin: 1vw 0 0 1vw;
+}
+.louis-wrapper p{
+	margin-bottom: 1.5vw;
+}
+.louis-wrapper .view a{
+	color: white;
+}
+.louis-wrapper .like{
+	position: absolute;
+	top: 6.5vw;
+}
+
+.p22-card{
+	width: 71%;
+	height: 22vw;
+	background-image: url(images/Project-section/furniture.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.p22-wrapper {
+	margin: 3.5vw 0 0 14vw;
+}
+.p22-wrapper .view{
+	position: absolute;
+	top: 1.8vw;
+	left: 11vw;
+}
+.p22-wrapper .like{
+    position: absolute;
+    left: 11vw;
+    top: -0.5vw
+}
+
+
+.sesann-card{
+	width: 71%;
+	height: 13.5vw;
+	background-image: url(images/Project-section/armchairs.png);
+	background-size: 58%;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+.sesann-wrapper{
+	position: absolute;
+	top: 7.5vw;
+	left: 8vw;
+}
+.sesann-wrapper .view{
+	position: absolute;
+	top: 1.7vw;
+	left: 10vw;
+	width: 6.6vw;
+}
+.sesann-wrapper .like{
+	position: absolute;
+	top: -2vw;
+	left: 15vw;
+}
+
+
+.alessi-card{
+	width: 29%;
+	height: 13.5vw;
+	background-image: url(images/Project-section/alessi.png);
+	background-repeat: no-repeat;
+	background-color: #CECECEFF;
+	background-size: 100%;
+}
+.alessi-wrapper{
+	margin: 3vw 0 0 7.5vw;
+}
+.alessi-wrapper .view{
+	margin: -2vw 0 0 -1.2vw;
+}
+.alessi-wrapper .like{
+	margin: -3vw 0 0 -2.2vw;
+}
+.alessi-wrapper .like{
+	position: relative;
+	left: 1vw;
+}
+.alessi-wrapper .like p{
+	margin-bottom: 0;
+}
+
+
+
+.wrapper-right{
+	width: 32vw;
+}
+.potter-card{
+	height: 11.5vw;
+	background-image: url(images/Project-section/potter.png);
+	background-color: #DFE0D9FF;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 100% 60%;
+}
+.potter-wrapper p{
+	letter-spacing: 0.5px;
+}
+.potter-wrapper h1{
+	margin-bottom: 0.4vw;
+}
+.potter-wrapper{
+	position: absolute;
+	top: 1vw;
+	left: 2vw;
+}
+.potter-wrapper .view{
+	margin: -2vw 0 0 0;
+}
+.potter-wrapper .like{
+	position: relative;
+	top:-3.7vw;
+}
+
+
+.tabano-card{
+	height: calc(100% - 36.5vw);
+	background-image: url(images/Project-section/tabano.png);
+	background-color: #E9EAE2FF;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.tabano-wrapper{
+	position: absolute;
+	left: 2vw;
+	top: 15vw;
+}
+.tabano-wrapper .view{
+	position: absolute;
+	top: 1.8vw;
+	left: 9vw;
+	width: 6.6vw;
+}
+.tabano-wrapper .like{
+	position: absolute;
+	top: -2vw;
+	left: 14vw;
+}
+
+
+.fiji-card{
+	height: 11.5vw;
+	background-image: url(images/Project-section/fiji.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-size: 100%;
+	background-position: 0% 60%;
+}
+.fiji-wrapper{
+	position: absolute;
+	left: 13vw;
+	top: 1.3vw;
+}
+.fiji-wrapper .view{
+	position: absolute;
+	width: 6.6vw;
+	top: 5vw;
+}
+.fiji-wrapper .like{
+	position: absolute;
+	top: 3vw;
+}
+
+
+.timeline-card{
+	height: 13.5vw;
+	background-color: #ebb240;
+	background-image: url(images/Project-section/line.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+}
+.timeline-wrapper .years{
+	position: absolute;
+	top: 0.8vw;
+}
+.timeline-wrapper .years li{
+	list-style: none;
+	font-size: 0.6vw;
+}
+.timeline-wrapper .years li:first-child{
+	position: relative;
+	left: -0.8vw;
+}
+.timeline-wrapper .years a{
+	color: white;
+	text-decoration: none;
+}
+.timeline-wrapper p{
+	font-size: 0.8vw;
+}
+.timeline-wrapper{
+	position: absolute;
+	top: 3vw;
+	left: 4vw;
+}
+.timeline-wrapper .years img{
+	height: 0.5vw;
+}
+
+
+
+.studio-section{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #E9EAE2FF;
+}
+.studio-card{
+	width: 22.6vw;
+	height: 22.3vw;
+	background-color: #FF9B6DFF;
+	background-image: linear-gradient(to bottom right, transparent 50%, #e9eae2, transparent 50.5%);
+}
+.studio-section p {
+	color: #3f3f3f;
+}
+.studio-card h1, .news-card h1{
+	color: white;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 15vw;
+	left: 12vw;
+}
+.article-card{
+	height: 22.3vw;
+	width: calc((100% - 22.6vw)/2);
+}
+.awards-card{
+	height: 22.3vw;
+	width: calc((100% - 22.6vw)/2);
+}
+.article-card p{
+	font-size: 0.9vw;
+	margin: 0.4vw 1.6vw 0 5vw;
+	color: #3f3f3f;
+}
+.article-card p:first-child{
+	margin: 2vw 1vw 0 5vw;
+}
+.article-card p:nth-child(3){
+	margin: 1.5vw 1vw 0 5vw;
+}
+
+
+.awards-image{
+	width: 70%;
+	margin: 2vw 0 0 0;
+}
+.awards-image img{
+	width: 100%;
+	margin-bottom: 2vw;
+}
+.awards-article h1{
+	font-size: 0.9vw;
+}
+.awards-article h1:after{
+	content: "";
+	display: block;
+	border: 0.5px solid #BFC0B9FF;
+	width: 70%;
+	margin-top: 0.1vw;
+	margin-bottom: 1.6vw;
+}
+.text-wrapper p{
+	font-size: 0.6vw;
+	color: black;
+}
+.text-wrapper{
+	display: flex;
+}
+.left-text{
+	margin-right: 2.5vw;
+}
+
+
+.staff-card{
+	height: 17.2vw;
+	width: 22.6vw;
+}
+.staff-article{
+	font-size: 0.9vw;
+	margin: 3vw 2vw 0 6vw;
+	color: #3f3f3f;
+	line-height: 0.8vw;
+}
+.staff-article p{
+	margin: 1vw 0 0 0;
+}
+.staff-article h1{
+	font-size: 0.9vw;
+}
+
+.person-card{
+	width: 16vw;
+}
+.staff-image{
+	width: 70%;
+	margin: 3vw 0 0.8vw 0;
+}
+.staff-image img{
+	width: 100%;
+}
+.person-card h1{
+	font-size: 0.8vw;
+	margin-bottom: -0.2vw;
+}
+.person-card p{
+	font-size: 0.8vw;
+	display: inline-block;
+	vertical-align: 5%;
+	margin-bottom: 0.8vw;
+}
+.contacts span p{
+	color: #fd5000;
+}
+.contacts span img{
+	height: 0.7vw;
+	margin-left: 0.2vw;
+}
+.contacts img{
+	height: 0.7vw;
+	margin-left: 0.4vw;
+}
+.icons{
+	display: inline-block;
+	margin-left: 4vw;
+}
+
+
+.mario-card{
+	width: 14.6vw;
+	border: 1px solid orange;
+}
+.patricia-card{
+	width: 14.6vw;
+	border: 1px solid blue;
+}
+
+
+.news-section{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #E5E9DFFF;
+}
+.news-card{
+	width: 22.6vw;
+	height: 22.3vw;
+	background-color: #D4EDBFFF;
+	background-image: linear-gradient(to bottom right, transparent 50%, #e9eae2, transparent 51%);
+}
+
+.news-image{
+	width: 100%;
+}
+.news-image img{
+	width: 100%;
+}
+.news-section p {
+	color: #3f3f3f;
+}
+
+.first-news, .second-news{
+	height: 22.3vw;
+	width: calc((100% - 22.6vw) / 2);
+}
+
+.first-news h1, .second-news h1{
+	font-size: 1.2vw;
+}
+.first-news p, .second-news p{
+	font-size: 0.74vw;
+	text-align: justify;
+}
+.news-wrapper{
+	position: relative;
+	width: 80%;
+}
+.first-news .news-wrapper{
+	top: 2vw;
+	left: 4vw
+}
+.second-news .news-wrapper{
+	top: 2vw;
+	left: 1vw;
+}
+.second-news .news-wrapper h1{
+	margin-bottom: 1.5vw;
+}
+.news-wrapper a{
+	text-decoration: none;
+}
+.news-wrapper .read-more{
+	text-align: right;
+	color: #fb5a0f;
+	margin-top: 0.5vw;
+}
+.second-news .read-more{
+	margin-top: 1.5vw;
+}
+
+
+footer{
+	display: flex;
+}
+.map, .addres-section{
+	width: calc(100%/2);
+	height: 31.2vw;
+}
+.addres-section{
+	background-color: #E9EAE2FF;
+}
+.addres-section p.copyright{
+	font-size: 0.7vw;
+	position: absolute;
+	top: 28vw;
+	left: 6.8vw;
+}
+.map img{
+	width: 100%;
+}
+.addres p{
+	font-size: 0.8vw;
+	margin-bottom: 1vw;
+}
+.footer-logo img{
+	height: 10vw;
+}
+.footer-logo p{
+	font-size: 0.9vw;
+	margin-bottom: 2vw;
+}
+.footer-contacts img{
+	height: 1vw;
+	margin: 0 0.1vw;
+}
+.addres-section .addres{
+	position: absolute;
+	top: 7vw;
+	left: 6.8vw;
+}
+.footer-logo{
+	position: absolute;
+	top: 7vw;
+	left: 24.9vw;
+}
+.footer-contacts{
+	position: relative;
+	left: 1.5vw;
+}
+
+
+@media screen and (max-width: 1440px) {
+	body{
+		margin: 0 12%;
+	}
+	.article-card p {
+	    font-size: 0.95vw;
+	    margin: 0.4vw 3vw 0 5vw;
+	    color: #3f3f3f;
+	}
+	.article-card p:first-child {
+	    margin: 2vw 2vw 0 5vw;
+	}
+	.article-card p:nth-child(3) {
+	    margin: 1.5vw 2.4vw 0 5vw;
+	}
+
+	.sesann-wrapper {
+	    top: 8vw;
+	}
+
+	.staff-card p{
+		font-size: 0.92vw;
+	}
+	.person-card{
+		width: 16.5vw;
+	}
+
+	.studio-card, .staff-card, .news-card {
+	    width: 23.1vw;
+	}
+	.article-card {
+		width: calc((100% - 23.1vw)/2);
+	}
+	.awards-card {
+	    width: calc((100% - 23.1vw)/2);
+	}
+
+	.first-news, .second-news {
+	    width: calc((100% - 23.1vw) / 2);
+	}
+
+	.addres-section p.copyright {
+	    top: 29vw;
+	}
+}
+
+
+@media screen and (max-width: 1366px) {
+	body{
+		margin: 0 10%;
+	}
+	.fondue-card .like {
+	    left: 0.2vw;
+	}
+	.louis-wrapper .like {
+	    top: 6vw;
+	}
+	.p22-wrapper .like {
+	    left: 11.3vw;
+	    top: 0vw;
+	}
+	.sesann-wrapper {
+	    left: 9vw;
+	}
+	.alessi-wrapper {
+	    margin: 3vw 0 0 8.5vw;
+	}
+
+	.person-card{
+		width: 18vw;
+	}
+	.icons {
+	    margin-left: 5vw;
+	}
+	.staff-card p{
+		line-height: 0.9vw;
+		font-size: 0.85vw;
+	}
+	.studio-card, .staff-card, .news-card{
+	    width: 24.4vw;
+	}
+	.article-card {
+		width: calc((100% - 24.4vw)/2);
+	}
+	.awards-card {
+	    width: calc((100% - 24.4vw)/2);
+	}
+	.staff-card{
+		height: 19vw;
+	}
+	.staff-card p {
+	    font-size: 1vw;
+	}
+	.person-card p{
+		margin-bottom: 0.9vw;
+	}
+
+	.first-news, .second-news {
+	    width: calc((100% - 24.4vw) / 2);
+	}
+	.first-news .news-wrapper, .second-news .news-wrapper{
+	    top: 1vw;
+	}
+	.second-news .news-wrapper {
+	    left: 0;
+	}
+
+	.map, .addres-section {
+	    height: 33.7vw;
+	}
+	.footer-logo {
+	    position: absolute;
+	    top: 7vw;
+	    left: 26.4vw;
+	}
+	.addres-section p.copyright {
+	    top: 30.5vw;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.address, .contact-info {
+	    margin: 3vw 0 0 2vw;
+	}
+	.contact-info {
+	    margin: 1vw 0 0 7vw;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	body{
+		margin: 0;
+	}
+	.logo-section {
+	    width: 60vw;
+	}
+	.logo img {
+	    height: 13vw;
+	}
+	.socials img {
+	    height: 1.3vw;
+	}
+	.socials {
+	    margin-top: 2vw;
+	}
+	.logo p {
+	    font-size: 10px;
+	}
+	.logo-img {
+	    height: 25vw;
+	    margin-left: 6vw;
+	}
+	.menu-section {
+	    width: 40vw;
+	}
+	.botton-navigation img {
+	    padding: 2.5vw 2.8vw;
+	}
+	.address, .contact-info {
+	    color: white;
+	    font-size: 11px;
+	    margin: 4vw 0 0 4vw;
+	}
+	.contact-info {
+	    margin: 1vw 0 0 10vw;
+	}
+
+
+	.wrapper-left {
+	    width: 63.1vw;
+	}
+	.wrapper-right{
+		width: 35.5vw;
+	}
+	.project-card {
+	    width: 45%;
+	    height: 29vw;
+	}
+	.wrapper-left .fondue-card {
+	    height: 29vw;
+	}
+
+	.navigation {
+	    top: 9vw;
+	    left: 9vw;
+	}
+	.project-card h1 {
+	    top: 20vw;
+	    left: 14vw;
+	}
+	.projects-section p {
+	    font-size: 8px;
+	    line-height: 0.9vw;
+	}
+	.projects-section h1 {
+	    font-size: 1.5vw;
+	}
+	.project-card h1 {
+		font-size: 3vw;
+	}
+	.view a {
+	    font-size: 12px;
+	}
+	.view img {
+	    height: 9px;
+	}
+	.like img {
+	    height: 18px;
+	}
+	
+	.like p {
+	    top: 6vw;
+	    left: 2.9vw;
+	}
+
+	.fondue-card .like {
+	    left: 0.5vw;
+	    top: 15vw;
+	}
+	
+	.louis-card {
+	    height: 28vw;
+	}
+	.louis-wrapper .like {
+	    top: 9vw;
+	    left: 1vw;
+	}
+
+	.p22-card{
+		height: 28vw;
+	}
+	.p22-wrapper {
+	    margin: 4.5vw 0 0 18vw;
+	}
+	.p22-wrapper .view {
+		width: 8.5vw;
+		top: 2vw;
+		left: 14vw;
+	}
+	.p22-wrapper .like {
+	    left: 15vw;
+	    top: 0.8vw;
+	}
+
+	.sesann-card{
+		height: 18vw;
+	}
+	.sesann-wrapper {
+	    top: 10vw;
+	}
+	.sesann-wrapper .view {
+	    width: 8.5vw;
+	    top: 2vw;
+	    left: 15vw;
+	}
+	.sesann-wrapper .like {
+	    left: 23vw;
+	}
+
+	.alessi-card{
+		height: 18vw;
+	}
+	.alessi-wrapper{
+		margin: 3vw 0 0 9.5vw;
+	}
+
+	.potter-card {
+	    height: 14vw;
+	    background-size: 70%;
+	}
+	.potter-wrapper {
+	    left: 4vw;
+	}
+
+	.tabano-card {
+	    height: calc(100% - 46vw);
+	    background-size: 80%;
+	    background-position: 50% -200%;
+	}
+	.tabano-wrapper .view {
+	    width: 8.5vw;
+	}
+	.tabano-wrapper {
+	    left: 4vw;
+	    top: 20vw;
+	}
+	.tabano-wrapper .view {
+	    top: 2vw;
+	    left: 14vw;
+	}
+	.tabano-wrapper .like {
+	    left: 22vw;
+	}
+
+	.fiji-wrapper {
+	    left: 19.5vw;
+	}
+	.fiji-wrapper .view {
+	    top: 6vw;
+	}
+	.fiji-wrapper .like {
+	    top: 5vw;
+	    left: 1vw;
+	}
+
+	.timeline-card{
+		height: 18vw;
+	}
+	.timeline-wrapper {
+	    left: 5vw;
+	}
+	.timeline-wrapper p{
+		font-size: 12px;
+	}
+	.timeline-wrapper .years li {
+	    font-size: 10px;
+	}
+	.timeline-wrapper .years li:first-child{
+		left: -1.2vw;
+	}
+
+	.fiji-card {
+	    height: 14vw;
+	    background-size: 80%;	
+	    background-position: 10% 60%;
+	}
+	.fiji-wrapper .view {
+	    width: 8.5vw;
+	}
+	
+	.timeline-wrapper .years img {
+	    height: 8px;
+	}
+
+
+
+	.studio-card, .staff-card {
+	    width: 28.4vw;
+	}
+	.studio-card{
+		height: 29vw;
+	}
+	.studio-card h1, 
+	.news-card h1 {
+	    top: 20vw;
+	    left: 16vw;
+	    font-size: 3vw;
+	}
+
+
+	.article-card {
+	    width: calc((100% - 28.4vw)/2);
+	    height: 29vw; 
+	}
+	.awards-card {
+	    width: calc((100% - 28.4vw)/2);
+	    height: 29vw;
+	}
+	.article-card p {
+	    font-size: 1.1vw;
+	    margin: 0.4vw 3vw 0 8vw;
+	}
+	.article-card p:first-child {
+	    margin: 3vw 3vw 0 8vw;
+	}
+	.article-card p:nth-child(3) {
+	    margin: 1.5vw 3vw 0 8vw;
+	}
+	.awards-article{
+		position: relative;
+		top: -1vw;
+	}
+	.awards-article h1 {
+	    font-size: 1.2vw;
+	}
+	.text-wrapper p {
+	    font-size: 0.8vw;
+	}
+
+	.staff-card {
+	    height: 25vw;
+	}
+	.staff-article h1 {
+	    font-size: 1.2vw;
+	}
+	.staff-card p {
+	    line-height: 1.2vw;
+	    font-size: 1.2vw;
+	}
+	.staff-article {
+	    margin: 4vw 2vw 0 6vw;
+	}
+	.staff-image {
+	    width: 80%;
+	}
+	.person-card {
+	    width: 22vw;
+	}
+	.person-card h1 {
+	    font-size: 1.2vw;
+	    margin-bottom: -0.4vw;
+	}
+	.person-card p {
+	    font-size: 1.2vw;
+	    margin-bottom: 1.2vw;
+	}	
+	.contacts span img {
+	    height: 1vw;
+	}
+	.contacts img {
+	    height: 1vw;
+	}
+	.icons {
+	    left: 3vw;
+	}
+
+	.news-card{
+		height: 29vw;
+		width: 28.4vw;
+	}
+	.first-news, .second-news {
+	    width: calc((100% - 28.4vw) / 2);
+	}
+	.first-news .news-wrapper, .second-news .news-wrapper {
+	    top: 2vw;
+	}
+	.first-news .news-wrapper {
+	    left: 5vw;
+	}
+	.first-news h1, .second-news h1 {
+	    font-size: 1.5vw;
+	}
+	.second-news .news-wrapper h1 {
+	    margin-bottom: 1.8vw;
+	}
+	.first-news p, .second-news p {
+	    font-size: 1vw;	
+	}
+
+	.map, .addres-section {
+	    height: 42.05vw;
+	}
+	.addres p {
+	    font-size: 1.2vw;
+	}
+	.addres-section .addres {
+	    top: 8.5vw;
+	}
+	.footer-logo img {
+	    height: 14vw;
+	}
+	.footer-logo p {
+	    font-size: 1.3vw;
+	}
+	.footer-contacts img {
+	    height: 1.5vw;
+	    margin: 0 0.2vw;
+	}
+	.addres-section .addres {
+	    top: 8.5vw;
+	    left: 7.5vw;
+	}
+	.footer-logo {
+	    top: 8.6vw;
+	    left: 31.5vw;
+	}
+	.addres-section p.copyright {
+		font-size: 1vw;
+	    top: 37.8vw;
+	    left: 7.5vw;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.logo-section {
+	    padding: 4% 0 0 7%;
+	}
+	.logo p {
+	    font-size: 9px;
+	}
+	.address, .contact-info {
+	    font-size: 10px;
+	}
+	.socials {
+	    flex-wrap: wrap;
+	    width: 10vw;
+	    margin-bottom: 10px;
+	}
+	.socials img {
+	    height: 1.8vw;
+	    padding: 0 1vw;
+	}
+
+	.wrapper-left {
+	    width: 62vw;
+	}
+	.wrapper-right {
+	    width: 36.8vw;
+	}
+	.project-card .navigation li {
+	    line-height: 8px;
+	}
+	.view a {
+	    font-size: 10px;
+	}
+	.view img {
+	    height: 7px;
+	}
+	.like img {
+		left: 3.3vw; 
+	    height: 14px;
+	}
+
+	.louis-card{
+		height: 27.6vw;
+	}
+	.louis-wrapper .like {
+	    left: 2vw;
+	}
+
+	.p22-card{
+		height: 27.6vw;
+	}
+
+	.alessi-wrapper .like {
+	    left: 1vw;
+	}
+
+	.person-card h1 {
+	    margin-bottom: -0.8vw;
+	}
+	.person-card p{
+		margin-bottom: 1vw;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.address, .contact-info {
+	    margin: 4vw 0 0 1.5vw;
+	}
+
+	.logo-section {
+	    width: 65vw;
+	}
+	.menu-section {
+	    width: 35vw;
+	}
+	.logo-img {
+	    margin-left: 4vw;
+	}
+	.contact-info {
+	    margin: 1vw 0 0 8vw;
+	}
+
+	.wrapper-left {
+	    width: 68vw;
+	}
+	.wrapper-right {
+	    width: 33vw;
+	}
+	.project-card .navigation a {
+	    font-size: 1.3vw;
+	}
+	.projects-section h1 {
+	    font-size: 16px;
+	}
+	.project-card h1{
+		font-size: 3vw;
+	}
+	.projects-section p {
+	    line-height: 1vw;
+	}
+
+	.louis-wrapper .view{
+		margin-top: -1vw;
+	}
+	.louis-wrapper .like {
+	    left: 1vw;
+	}
+
+	.p22-wrapper .view {
+	    width: 9vw;
+	    top: 2.4vw;
+	    left: 17vw;
+	}
+	.p22-wrapper .like {
+	    left: 18vw;
+	    top: 2.5vw;
+	}
+
+	.sesann-wrapper .view {
+		width: 9vw;
+	    top: 2.4vw;
+	    left: 18vw;
+	}
+	.sesann-wrapper .like {
+		top: -1vw;
+	    left: 26vw;
+	}
+
+
+	.potter-wrapper .view {
+	    margin: -2.5vw 0 0 0;
+	}
+	.potter-wrapper {
+	    top: 0.5vw;
+	    left: 2vw;
+	}
+
+	.tabano-wrapper {
+	    left: 2vw;
+	    top: 20vw;
+	}
+	.tabano-wrapper .view {
+		width: 9vw;
+	    top: 2.4vw;
+	    left: 17vw;
+	}
+	.tabano-wrapper .like {
+	    top: 1vw;
+	    left: 18vw;
+	}
+	.tabano-card {
+	    background-position: 50% 0%;
+	}
+
+	.fiji-wrapper .view {
+	    width: 9vw;
+	}
+	.fiji-wrapper {
+	    left: 14.5vw;
+	}
+
+	.timeline-wrapper {
+	    left: 4vw;
+	}
+	.timeline-wrapper p {
+	    font-size: 1.5vw;
+	}
+	.timeline-wrapper .years li {
+	    font-size: 1.2vw;
+	}
+	.timeline-wrapper .years li:first-child {
+	    left: -1.6vw;
+	}
+
+	.icons {
+	    margin-left: 4.5vw;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.contact-info{
+		margin: 1vw 0 0 10vw;
+	}
+
+	.projects-section p {
+	    line-height: 1vw;
+	}
+
+	.sesann-wrapper .view,
+	.p22-wrapper .view, 
+	.tabano-wrapper .view, 
+	.fiji-wrapper .view
+	{
+		width: 10vw;
+	}
+
+	.sesann-wrapper {
+	    left: 7.5vw;
+	}
+	.tabano-wrapper {
+	    left: 2vw;
+	    top: 18vw;
+	}
+	.tabano-wrapper .like{
+		top: 1.5vw;
+	}
+
+	.alessi-wrapper .like {
+	    left: 2vw;
+	    top: -0.2vw;
+	}
+
+	.potter-wrapper .view {
+	    margin: -1vw 0 0 0;
+	}
+	.potter-wrapper .like {
+	    top: -6vw;
+	    left: 8vw;
+	}
+}
+
+
+@media screen and (max-width: 720px) {
+	.address{
+	    margin: 3.5vw 0 0 1.5vw;
+	}
+	.contact-info {
+	    margin: 1vw 0 0 10vw;
+	}
+	.projects-section p {
+	    font-size: 6px;
+	}
+
+	.like p {
+	    left: 3.3vw;
+	    top: 6.5vw;
+	}
+
+	.louis-wrapper .like {
+	    top: 8.5vw;
+	}
+
+	.alessi-wrapper {
+	    margin: 3vw 0 0 10vw;
+	}
+	.alessi-wrapper .view {
+	    margin: -2.5vw 0 0 -1.6vw;
+	}
+	.potter-wrapper .like {
+	    top: -6.5vw;
+	}
+
+	.timeline-wrapper p{
+		font-size: 10px;
+	}
+	.timeline-wrapper .years li {
+	    font-size: 8px;
+	}
+	.timeline-wrapper .years li:first-child {
+	    left: -1.7vw;
+	}
+
+
+	.article-card p {
+	    font-size: 1.2vw;
+	}
+	.text-wrapper p {
+	    font-size: 1vw;
+	}
+	.staff-card p {
+	    line-height: 1.3vw;
+	    font-size: 1.3vw;
+	}
+
+	.person-card p {
+	    margin-bottom: 0;
+	}
+}
+
+
+@media screen and (max-width: 667px) {
+	.view a {
+	    font-size: 8px;
+	}
+	.like img {
+	    left: 3.7vw;
+	    height: 1.6vw;
+	}
+
+	.address{
+	    margin: 2.5vw 0 0 1.5vw;
+	}
+
+	.navigation {
+	    top: 7vw;
+	    left: 9vw;
+	}
+
+	.p22-wrapper {
+	    margin: 3.5vw 0 0 18vw;
+	}
+
+	.sesann-wrapper {
+	    left: 8vw;
+	}
+
+	.alessi-wrapper .view {
+	    margin: -2.5vw 0 0 -0.5vw;
+	}
+
+	.alessi-wrapper .like {
+	    top: -0.8vw;
+	}
+
+	.potter-wrapper .view {
+	    margin: -2vw 0 0 0;
+	}
+
+	.fiji-wrapper {
+	    top: 1vw;
+	}
+
+	.timeline-wrapper {
+	    left: 3vw;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	header {
+	    flex-direction: column;
+	}
+	.logo-section {
+	    width: 85%;
+	    padding: 4% 0 0 15%;
+	}
+	.menu-section {
+	    width: 100%;
+	}
+	.logo img {
+	    height: 20vw;
+	}
+	.logo p {
+	    font-size: 2.5vw;
+	}
+	.socials {
+	    flex-wrap: nowrap;
+	    width: auto;
+	}
+	.socials img{
+		height: 3vw;
+		padding: 0 0.5vw;
+	}
+	.logo-img {
+	    height: 40vw;
+	    margin-left: 8vw;
+	}
+	.botton-navigation img {
+	    height: 3vw;
+	    padding: 4vw 4vw;
+	}
+	.address, .contact-info {
+	    font-size: 3vw;
+	    margin: 4vw 0 0 8vw;
+	}
+	.contact-info {
+	    margin: 1vw 0 3vw 25vw;
+	}
+	
+	.projects-section {
+	    flex-direction: column;
+	}
+	.wrapper-left {
+	    width: 100%;
+	}
+	.wrapper-right {
+	    width: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.projects-section h1 {
+	    font-size: 4vw;
+	}
+	.projects-section p {
+	    font-size: 1.8vw;
+	    line-height: 1.7vw;
+	}
+	.view a {
+	    font-size: 2.5vw;
+	}
+	.view img {
+	    height: 1.9vw;
+	}
+	.like img {
+	    left: 4.2vw;
+	    height: 2.5vw;
+	}
+
+
+	.project-card {
+	    width: 40%;
+	    height: 40vw;
+	}
+	.project-card .navigation li {
+	    line-height: 2vw;
+	}
+	.project-card .navigation a {
+	    font-size: 2.5vw;
+	}
+	.project-card h1 {
+	    font-size: 5vw;
+	}
+
+	.navigation {
+	    top: 9vw;
+	    left: 10vw;
+	}
+	.project-card h1 {
+	    top: 28vw;
+	}
+
+	.wrapper-left .fondue-card {
+	    height: 40vw;
+	    width: 60%;
+	}
+	.fondue-card .like {
+	    top: 24vw;
+	    left: 4vw;
+	}
+
+	.louis-card {
+	    height: 43vw;
+	}
+	.louis-wrapper .like {
+	    top: 18vw;
+	    left: 5vw;
+	}
+
+	.sesann-wrapper .view, 
+	.p22-wrapper .view, 
+	.tabano-wrapper .view, 
+	.fiji-wrapper .view {
+	    width: 18.5vw;
+	}
+
+	.p22-card {
+	    height: 43vw;
+	}
+	.p22-wrapper {
+	    margin: 4.5vw 0 0 24vw;
+	}
+	.p22-wrapper .view {
+	    top: 10vw;
+	    left: 24vw;
+	}
+	.p22-wrapper .like {
+	    top: 15vw;
+	    left: 28vw;
+	}
+
+	.sesann-card {
+	    height: 35vw;
+	    width: 65%;
+	    background-size: 80%;
+    	background-position: 50% 20%;
+	}
+	.sesann-wrapper {
+	    top: 20.5vw;
+	    left: 4vw;
+	}
+	.sesann-wrapper .view {
+	    top: 4.3vw;
+	    left: 35vw;
+	}
+	.sesann-wrapper .like {
+	    top: 4vw;
+	    left: 40vw;
+	}
+
+	.alessi-card {
+	    height: 35vw;
+	    width: 35%;
+	}
+	.alessi-wrapper {
+	    position: absolute;
+	    top: 3vw;
+	    left: 7.5vw;
+	}
+	.alessi-wrapper .view {
+	    position: absolute;
+	    top: 17vw;
+	    left: -2.5vw;
+	}
+	.alessi-wrapper .like {
+	    position: absolute;
+	    top: 21vw;
+	    left: 20px;
+	}
+
+	.potter-card {
+	    height: 40vw;
+	    width: 50%;
+	    background-size: 100%;
+	}
+	.potter-wrapper {
+	    left: 3vw;
+	    top: 5vw;
+	}
+	.potter-wrapper .view {
+	    margin: 0 0 0 0;
+	}
+	.potter-wrapper .like {
+	    position: absolute;
+	    top: 20vw;
+	    left: 5vw;
+	}
+
+	.tabano-card {
+	    background-position: 50% 0%;
+	    height: 40vw;
+	    width: 50%;
+	}
+	.tabano-wrapper {
+	    top: 25.5vw;
+	    left: 1vw;
+	}
+	.tabano-wrapper .view {
+	    top: 4.4vw;
+	    left: 27vw;
+	}
+	.tabano-wrapper .like {
+	    top: 4.5vw;
+	    left: 32vw;
+	}
+	
+	.fiji-card {
+	    height: 30vw;
+	    width: 70%;
+	}
+	.fiji-wrapper {
+	    left: 35vw;
+	    top: 4.5vw;
+	}
+	.fiji-wrapper .view {
+	    top: 12.5vw;
+	}
+	.fiji-wrapper .like {
+	    top: 14vw;
+	    left: 5vw;
+	}
+
+	.timeline-card {
+	    height: 30vw;
+	    width: 30%;
+	}
+	.timeline-wrapper {
+	    top: 5vw;
+	    left: 6vw;
+	}
+	.timeline-wrapper .years {
+	    position: absolute;
+	    top: 2vw;
+	}
+	.timeline-wrapper p {
+	    font-size: 3vw;
+	}
+	.timeline-wrapper .years li {
+	    font-size: 2vw;
+	}
+	.timeline-wrapper .years li:first-child {
+	    left: -2.2vw;
+	}
+
+	.studio-card {
+	    height: 40vw;
+	    width: calc(100% / 2);
+	}
+	.studio-card h1 {
+	    top: 28vw;
+	    left: 28vw;
+	    font-size: 5vw;
+	}
+	.article-card p {
+	    font-size: 1.8vw;
+	    margin: 1.5vw 3vw 0 5vw;
+	}
+	.article-card p:first-child {
+	    margin: 3vw 3vw 0 5vw;
+	}
+	.article-card p:nth-child(3) {
+	    margin: 1.5vw 3vw 0 5vw;
+	}
+	.article-card {
+	    width: calc(100% / 2);
+	    height: 40vw;
+	}
+	.awards-card {
+	    width: calc(100% / 2);
+	    height: 40vw;
+	}
+	.awards-image {
+	    width: 80%;
+	    margin: 2vw 0 0 5vw;
+	}
+	.awards-article {
+	    left: 5vw;
+	}
+	.awards-article h1 {
+	    font-size: 2.5vw;
+	}
+	.awards-article h1:after {
+	    width: 80%;
+	}
+	.text-wrapper p {
+	    font-size: 1.45vw;
+	}
+	.staff-card {
+	    height: 40vw;
+	    width: calc(100% - 50vw);
+	}
+	.staff-article {
+	    margin: 8vw 2vw 0 5vw;
+	}
+	.staff-article h1 {
+	    font-size: 3vw;
+	}
+	.staff-image {
+	    width: 100%;
+	}
+	.staff-card p {
+	    line-height: 2.5vw;
+	    font-size: 2vw;
+	}
+	.person-card {
+	    width: calc(90% / 3);
+	    margin-left: 2vw;
+	    margin-bottom: 5vw;
+	}
+	.person-card h1 {
+	    font-size: 2.5vw;
+	}
+	.person-card p {
+	    font-size: 2vw;
+	    margin-bottom: 0.8vw;
+	}
+	.contacts span img {
+	    height: 1.7vw;
+	}
+	.icons {
+	    margin-left: 7vw;
+	}
+	.contacts img {
+	    height: 2vw;
+	    margin-left: 1vw;
+	}
+
+	.news-section {
+	    flex-direction: column;
+	}
+	.news-card {
+	    height: 29vw;
+	    width: 100%;
+	    margin-bottom: 4vw;
+	}
+	.news-card h1 {
+	    top: 15vw;
+	    left: 72vw;
+	    font-size: 7vw;
+	}
+	.first-news, .second-news {
+	    width: 100%;
+	    height: 40vw;
+	}
+	.second-news{
+		margin-top: 28vw;
+		margin-bottom: 25vw;
+	}
+	.first-news .news-wrapper, 
+	.second-news .news-wrapper {
+	    left: 0;
+	    margin-bottom: 4vw;
+	    width: 70%;
+	    margin: 0 auto;
+	}
+	.first-news h1, .second-news h1 {
+	    font-size: 4vw;
+	}
+	.first-news p, .second-news p {
+	    font-size: 2.5vw;
+	}
+	
+	footer {
+	    flex-direction: column;
+	}
+	.map, .addres-section {
+	    height: 50vw;
+	    width: 100%;
+	}
+	.addres-section .addres {
+	    left: 10vw;
+	    top: 6vw;
+	}
+	.addres-section .addres p {
+	    font-size: 2.5vw;
+	}
+	.addres-section .footer-logo {
+	    left: 72vw;
+	    top: 6vw;
+	}
+	.footer-logo img {
+	    height: 20vw;
+	}
+	.footer-logo p {
+	    font-size: 1.8vw;
+	}
+	.footer-contacts img {
+		position: relative;
+		right: 0.2vw;
+	    height: 2.5vw;
+	    margin: 0 0.2vw;
+	}
+	.addres-section p.copyright {
+	    top: 44vw;
+	    left: 10vw;
+	    font-size: 2vw;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.view a {
+	    font-size: 2vw;
+	}
+	.like p {
+	    left: 3.3vw;
+	    top: 7vw;
+	}
+
+	.fondue-card .like {
+	    left: 3vw;
+	}
+	.louis-wrapper .like {
+	    top: 17vw;
+	    left: 3vw;
+	}
+
+	.p22-wrapper .like {
+	    left: 27vw;
+	}
+
+	.sesann-wrapper .like {
+	    top: 5vw;
+	    left: 38vw;
+	}
+	.alessi-wrapper .like {
+	    left: 2.5vw;
+	}
+
+	.potter-wrapper .like {
+	    left: 3vw;
+	}
+
+	.tabano-wrapper .view {
+	    top: 4.2vw;
+	    left: 29vw;
+	}
+
+	.fiji-wrapper .like {
+	    left: 3vw;
+	}
+
+	.timeline-wrapper .years li:first-child {
+	    left: -2.5vw;
+	}
+
+	.socials img {
+	    height: 2.5vw;
+	    padding: 0 0.8vw;
+	}
+	.person-card h1 {
+	    margin-bottom: -1.5vw;
+	}
+
+	.icons {
+	    margin-left: 6vw;
+	}
+}
+
+
+@media screen and (max-width: 412px) {
+	.like p {
+	    left: 3.4vw;
+	}
+	.project-card .navigation a {
+	    font-size: 2.2vw;
+	}
+	.projects-section h1 {
+	    font-size: 3.5vw;
+	}
+	.projects-section p {
+	    font-size: 1.5vw;
+	    line-height: 1.6vw;
+	}
+
+	.sesann-wrapper {
+	    top: 21.5vw;
+	    left: 5vw;
+	}
+	.sesann-wrapper .view {
+	    top: 2.7vw;
+	}
+	.sesann-wrapper .like {
+	    top: 4vw;
+	}
+
+	.tabano-wrapper {
+	    top: 25.5vw;
+	    left: 2vw;
+	}
+	.tabano-wrapper .view {
+	    top: 3vw;
+	    left: 26.5vw;
+	}
+	.tabano-wrapper .like {
+	    left: 30vw;
+	}
+	
+	.timeline-wrapper {
+	    left: 5vw;
+	}
+	.timeline-wrapper p{
+		font-size: 2.5vw;
+	}
+	.timeline-wrapper .years li:first-child {
+	    left: -2.8vw;
+	}
+
+	.person-card h1 {
+	    margin-bottom: -2vw;
+	}
+
+}
+
+
+@media screen and (max-width: 375px) {
+	.project-card h1 {
+	    left: 20vw;
+	}
+
+	.sesann-wrapper .view {
+	    top: 1.7vw;
+	}
+	.sesann-wrapper .like {
+	    top: 3vw;
+	}
+
+	.timeline-wrapper .years li:first-child {
+	    left: -3.2vw;
+	}
+
+	.icons {
+	    margin-left: 5vw;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.sesann-wrapper .view {
+	    top: 2.2vw;
+	}
+	.sesann-wrapper .like {
+	    top: 4vw;
+	}
+	.tabano-wrapper .view {
+	    top: 2.5vw;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.navigation {
+	    left: 9vw;
+	}
+	.sesann-wrapper .view {
+	    top: 1.5vw;
+	}
+	.sesann-wrapper .like {
+	    top: 3.5vw;
+	}
+
+	.alessi-wrapper .like {
+	    top: 21.5vw;
+	}
+
+	.tabano-wrapper .view {
+	    top: 2vw;
+	}
+
+	.timeline-wrapper {
+	    top: 4vw;
+	}
+
+	.fiji-wrapper .like {
+	    top: 15vw;
+	}
+
+	.timeline-wrapper .years li:first-child {
+	    left: -3.6vw;
+	}
+}
